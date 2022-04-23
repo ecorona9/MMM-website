@@ -1,7 +1,9 @@
+
 .platform {
     background-color: rgb(92, 5, 5);
     padding: 10px 20px 10px 10px;
     border-radius: 25px;
+    margin: 10px 0;
 }
 
 .platform:hover {
@@ -60,4 +62,13 @@
     font-size: 20px;
     letter-spacing: 10px;
     color: rgb(87, 87, 87);
+}
+
+.definition {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
 }
