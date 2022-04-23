@@ -75,7 +75,7 @@ function Home() {
                     <h1>AVAILABLE  VERY SOON...</h1>
                     <h1 className='platform'>💻 WINDOWS MAC LINUX</h1>
                     <div>
-                        <iframe width="1080" height="720" src="https://www.youtube.com/embed/cXWlgP5hZzc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe width="1080" height="720" src="https://www.youtube.com/embed/CwkjTzX-Z_o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                     <div className='synopsis'>
                         <div className='main'>
