@@ -1,0 +1,63 @@
+.platform {
+    background-color: rgb(92, 5, 5);
+    padding: 10px 20px 10px 10px;
+    border-radius: 25px;
+}
+
+.platform:hover {
+    background-color: rgb(122, 6, 6);
+}
+
+
+.gameplayPics {
+    display: flex;
+    flex-wrap: wrap;
+    width: 900px;
+}
+
+.gameplayPics img {
+    margin: 10px;
+    width: 426px;
+    height: 240px;
+    filter: brightness(80%);
+    transition: 0.2s ease-in;
+}
+
+.gameplayPics img:hover {
+    filter: brightness(100%);
+    cursor: pointer;
+}
+
+.synopsis {
+    width: 800px;
+    font-family: monospace;
+}
+
+.main {
+    
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 4px;
+    font-weight: bold;
+    padding: 25px 0;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.columns div {
+    font-size: 15px;
+    line-height: 30px;
+    width: 350px;
+    margin: 10px;
+}
+
+.footer {
+    font-family: monospace;
+    font-size: 20px;
+    letter-spacing: 10px;
+    color: rgb(87, 87, 87);
+}

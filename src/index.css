@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
 }
 
 code {
@@ -24,6 +25,20 @@ code {
 @font-face {
   font-family: 'Voyager';
   src: local('Voyager'), url(./assets/fonts/VOYAGER.ttf) format('truetype');
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
+
+@font-face {
+  font-family: 'NewSpace';
+  src: local('NewSpace'), url(./assets/fonts/New\ Space.ttf) format('truetype');
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
+
+@font-face {
+  font-family: 'Cyberpnuk2';
+  src: local('Cyberpnuk2'), url(./assets/fonts/Cybrpnuk2.ttf) format('truetype');
   /* other formats include: 'woff2', 'truetype, 'opentype',
                             'embedded-opentype', and 'svg' */
 }

@@ -13,7 +13,7 @@ function Navbar() {
   return (
     <div className='navbar'>
         <div className='left'>
-            <button onClick={click}>PLAY GAME</button>
+            <Link className="btn" to="/play"><button>PLAY GAME</button></Link>
         </div>
         <div className='right'>
             <Link className="btn" to="/"><button>HOME</button></Link>

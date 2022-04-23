@@ -1,0 +1,85 @@
+
+.devs{
+    /* border: 3px solid purple; */
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.profiles {
+    /* border: 3px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1300px;
+}
+
+.profiles img {
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+    margin: 0 20px;
+    transition: 0.3s ease-in;
+}
+
+.profiles img:hover {
+    transition: 0.05s ease-in;
+    transform: scale(1.03);
+}
+
+.profiles img:active {
+    transform: scale(1.1);
+}
+
+.person {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 400px;
+    /* border: 2px solid blue; */
+    margin: 10px;
+}
+
+.profiles h2 {
+
+}
+
+
+.title {
+    font-family: 'Cyberpnuk2';
+    font-size: 30px;
+}
+
+.description {
+    position: relative;
+}
+
+.line {
+    position: absolute;
+    top: 60px;
+    width: 130px;
+    height: 3px;
+    background-image: linear-gradient(to right, rgb(187, 81, 32) , rgb(94, 94, 88));
+}
+
+.line2 {
+    position: absolute;
+    top: 92px;
+    width: 130px;
+    height: 3px;
+    background-image: linear-gradient(to right, rgb(187, 81, 32) , rgb(94, 94, 88));
+}
+
+
+.footerSymbol {
+    top: 730px;
+    position: absolute;
+    /* border: 3px solid green; */
+}
+
+.footerSymbol img {
+    width: 150px;
+    height: 140px;
+}
