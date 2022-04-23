@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+@font-face {
+  font-family: 'DevilBreeze';
+  src: local('DevilBreeze'), url(./assets/fonts/Devil\ Breeze\ Demi.ttf) format('truetype');
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
+
+
+@font-face {
+  font-family: 'Voyager';
+  src: local('Voyager'), url(./assets/fonts/VOYAGER.ttf) format('truetype');
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
